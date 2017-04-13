@@ -1,0 +1,56 @@
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid row">
+		<div class="navbar-header col-md-5">
+			<button class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target="#navbar-links">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">WebSiteName</a>
+		</div>
+		<form class="navbar-form navbar-left col-md-3">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Search">
+			</div>
+			<button type="submit" class="btn btn-success">Submit</button>
+		</form>
+		<div id="navbar-links" class="col-md-4">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#/home">Home</a></li>
+				<li><a href="#/info">Info</a></li>
+				<li><a href="#/contacts">Contacts</a></li>
+				<li><a href="#/login" data-toggle="modal" data-target="#myModal" target="_blank">Log in / Sign up</a></li>
+			</ul>
+			<button class="btn btn-danger navbar-btn">BG</button>
+		</div>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<br>
+					<div class="centered-form">
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<!--form-->
+								<div class="auth-container">
+									<form id="email-form" role="form" method="POST" action="/api/login/email">
+										<div class="form-group">
+											<input id="email" type="email" name="email" class="form-control input-sm" placeholder="Write your email">
+										</div>
+										<input type="submit" value="Sign in or sign up with email" class="btn btn-success btn-block">
+									</form>
+								</div>
+							</div>
+							<!-- end form -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- Modal end-->
+</nav>

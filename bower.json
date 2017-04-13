@@ -1,0 +1,37 @@
+{
+  "name": "project",
+  "description": "js-apps course project",
+  "main": "server.js",
+  "authors": [
+    "team"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "spa",
+    "javascript",
+    "jquery",
+    "bootstrap",
+    "navigo",
+    "handlebars",
+    "express"
+  ],
+  "homepage": "https://github.com/Sattanaso/JSAppsProject2017",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "^1.12.1",
+    "bootstrap": "^3.3.7",
+    "handlebars": "^4.0.5",
+    "navigo": "^4.5.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "js-apps course project",
+  "main": "server.js",
+  "engines": {
+    "node": "6.10.x",
+    "npm": "3.10.x"
+  },
+  "scripts": {
+    "sass": "gulp sass:watch",
+    "npm-client": "cd public && npm install",
+    "postinstall": "bower install && npm run npm-client",
+    "start": "node server.js",
+    "test": "cd public/tests && tests.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sattanaso/JSAppsProject2017.git"
+  },
+  "keywords": [
+    "spa",
+    "javascript",
+    "jquery",
+    "bootstrap",
+    "navigo",
+    "handlebars",
+    "express"
+  ],
+  "author": "team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sattanaso/JSAppsProject2017/issues"
+  },
+  "homepage": "https://github.com/Sattanaso/JSAppsProject2017#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "bower": "^1.8.0",
+    "express": "^4.15.2",
+    "mongojs": "^2.4.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "openurl": "^1.1.1"
+  }
+}

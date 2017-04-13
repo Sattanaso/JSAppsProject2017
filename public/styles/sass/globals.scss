@@ -1,0 +1,19 @@
+body {
+	background-color: gainsboro;
+
+	#wrapper {
+		padding-left: 1px;
+		padding-right: 1px;
+
+		#content, .footer {
+			color: white;
+			min-height: 350px;
+			border-radius: 5px;
+			background: grey;
+		}
+
+		.footer {
+			background-color: darkblue
+		}
+	}
+}
